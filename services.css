@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 38%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+
+}
+
+.nav-list {
+    width: 50%;
+    /*background-color: black;*/
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-image: url('img/buildings-g94e8e047b_1920sp.jpg');
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.wrapper{
+    font-family: 'raleway';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+
+}
+.wrapper h1{
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+.card{
+     min-height: 220px;
+     width: 320px;
+     padding: 30px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background: #fff;
+     margin: 10px 4px;
+     box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+     transition: 0.3s;
+}
+.card i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    color: #6c757d;
+    text-align: center;
+}
+.card:hover{
+
+}
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+    color: #f2f2f2;
+}
+.card:nth-child(1):hover{
+    background:linear-gradient(45deg,
+                                rgba(255,28,8,0.8) 0%,
+                                rgba(255,0,82,0.8) 100%),
+                                url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;                            
+}
+.card:nth-child(1):hover {
+    background: linear-gradient(45deg,
+            rgba(255, 28, 8, 0.8) 0%,
+            rgba(255, 0, 82, 0.8) 100%),
+        url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.card:nth-child(2):hover {
+    background: linear-gradient(45deg,
+            rgba(255, 28, 8, 0.8) 0%,
+            rgba(255, 0, 82, 0.8) 100%),
+        url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.card:nth-child(3):hover {
+    background: linear-gradient(45deg,
+            rgba(255, 28, 8, 0.8) 0%,
+            rgba(255, 0, 82, 0.8) 100%),
+        url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.card:nth-child(4):hover {
+    background: linear-gradient(45deg,
+            rgba(255, 28, 8, 0.8) 0%,
+            rgba(255, 0, 82, 0.8) 100%),
+        url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.card:nth-child(5):hover {
+    background: linear-gradient(45deg,
+            rgba(255, 28, 8, 0.8) 0%,
+            rgba(255, 0, 82, 0.8) 100%),
+        url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.card:nth-child(6):hover {
+    background: linear-gradient(45deg,
+            rgba(255, 28, 8, 0.8) 0%,
+            rgba(255, 0, 82, 0.8) 100%),
+        url('img/building-ge9cf03097_1280.jpg');
+    background-size: cover;
+}
+.textfooter {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+
